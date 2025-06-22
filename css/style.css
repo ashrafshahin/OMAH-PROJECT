@@ -1,0 +1,484 @@
+
+/* COMMON CSS STARTS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEDDE;
+
+}
+
+ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    line-height: .8;
+}
+
+.container{
+    width: 1166px;
+    margin: 0 auto;
+}
+
+/* section{
+    padding: 100px 0px;
+} */
+
+/* COMMON CSS ENDS */
+
+/* NAVBAR CSS STARTS */
+#navbar{
+    padding: 50px 0;
+}
+#navbar .navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#navbar .menu ul{
+    display: flex;
+    
+    
+}
+#navbar .menu ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+    color: #203239;
+    margin-left: 100px;
+    position: relative;
+
+    
+}
+#navbar .menu ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 0px; */
+    width: 25px;
+    height: 3px;
+    background-color: #F6762E;
+    border-radius: 20px;
+    margin-top: 4px;
+    opacity: 0;
+    transition: .5s;
+}
+#navbar .menu ul li a:hover::after{
+    opacity: 1;
+    /* width: 25px; */
+}
+
+
+/* NAVBAR CSS ENDS */
+
+/* BANNER CSS STARTS */
+#banner{
+    padding: 100px 0;
+    
+
+}
+#banner .banner-wrapper{
+    display: flex;
+}
+#banner .banner-left h1{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    width: 777px;
+}
+#banner .banner-left p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #2032398c;
+    width: 544px;
+}
+#banner .btn-parent{
+    display: flex;
+    margin-top: 55px;
+}
+#banner .banner-btn{ 
+
+    padding: 23px 101px 23px 56px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    width: 558px;
+    margin-right: 20px;
+}
+#banner .banner-btn input{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    color: #203239;
+    border: none;
+    background-color: white;
+    outline: none;
+    width: 360px;
+    
+}
+#banner .banner-btn i{
+    margin-right: 10px;
+}
+
+#banner .searcgbtn a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+    color: #203239;
+    padding: 23px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+/* BANNER CSS ENDS */
+
+/* PROPERTY CSS STARTS */
+#property{
+    background-color: white;
+    padding: 100px 0px;
+}
+#property .property-top h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    width: 533px;
+}
+#property .property-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#property .property-card-one{
+    width: 300px;
+    padding: 20px 32px;
+    position: relative;
+    
+}
+#property .property-card-one::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    height: 25px;
+    width: 5px;
+    background-color: #F6762E;
+}
+#property .property-card-one:hover{
+    box-shadow: 0px 4px 4px 0px hsl(197, 28%, 25%);
+    border-radius: 10px;
+}
+#property .property-card-one h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #203239;
+    
+
+     
+}
+#property .property-card-one span{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #ff7527;
+    width: 16px;
+    margin-left: 50px;
+}
+#property .property-card-one p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: hsla(197, 28%, 17%, 0.555);
+    width: 230px;  
+    
+}
+#property .property-card-one a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: hsl(198, 28%, 17%);
+    width: 139px;
+    margin-top: 50px;
+     
+}
+
+
+/* PROPERTY CSS ENDS */
+
+/* RESIDEN CSS STARTS */
+#residen{
+    padding: 68px 0;
+}
+#residen .residen-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#residen .residen-wrapper .residen-left h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #ff7527;
+    /* width: 144px; */
+}
+#residen .residen-wrapper .residen-left h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    width: 300px;
+}
+#residen .residen-wrapper .residen-left img{
+    border-radius: 20px;
+    margin-top: 60px;
+    width: 330px;
+}
+#residen .residen-left{
+    position: relative;
+    
+}
+
+#residen .residen-wrapper .residen-left .image2{
+    
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    
+      
+}
+/* #residen .residen-wrapper .residen-left .image2 img{
+    width: 358px;     
+} */
+
+#residen .residen-right h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    width: 507px;
+}
+#residen .residen-right p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #203239;
+    width: 570px;
+}
+
+#residen .residen-right .residen-btn{
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    
+}
+#residen .residen-right .residen-btn a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: #203239;
+    width: 300px;
+    padding: 13px 41px;
+    background-color: #ffffff;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#residen .residen-right .residen-btn button{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: white;
+    width: 300px;
+    padding: 13px 41px;
+    background-color: #203239;
+    border: none;
+    border-radius: 10px;
+    margin-left: 48px;
+}
+
+
+/* RESIDEN CSS ENDS */
+
+/* KOTA CSS STARTS */
+#kota{
+    padding: 68px 0;
+    background-color: white;
+}
+#kota .kota-tittle h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #ff7527;
+    
+}
+#kota .kota-tittle h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    width: 428px;
+}
+#kota .kota-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#kota .kota-images img{
+    margin-right: 20px;
+    margin-top: 68px;
+}
+#kota .kota-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#kota .kota-details .kota-image-details{
+    margin-right: 49px;
+    margin-top: 16px;
+}
+#kota .kota-details .kota-image-details h4{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 150%;
+    color: #203239;
+    width: 262px;
+}
+#kota .kota-details .kota-image-details p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #203239;
+    width: 356px;
+}
+
+/* KOTA CSS ENDS */
+
+
+
+/* FOOTER CSS STARTS */
+#footer{
+    padding: 48px 0px;
+}
+#footer .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer-left h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    
+}
+#footer .footer-left .call-carts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+#footer .footer-left .call-carts .left-cart {
+    margin-right: 24px;
+    
+}
+#footer .footer-left .cart-btn{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    color:  #203239;
+    width: 274px;
+    padding: 13px 41px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 57px 41px 86px 98px;
+}
+#footer .footer-left .cart-btn a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color:  #203239;   
+}
+#footer .footer-left .cart-btn button{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: white;
+    background-color: #203239;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+    margin-top: 27px;
+}
+
+
+#footer .footer-right h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 150%;
+    color: #203239;
+    
+}
+
+/* FOOTER CSS ENDS */
+
+/* SOCIAL CSS STARTS */
+#social{
+    padding: 31px 0;
+    background-color: #203239;
+}
+#social .social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social .social-icons i{
+    color: white;
+    margin-right: 64px;
+}
+
+
+/* SOCIAL CSS ENDS */
